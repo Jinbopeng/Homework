@@ -1,0 +1,4 @@
+#Thu Sep 13 17:27:54 CST 2018
+base.0=C\:\\Users\\ASUS\\AndroidStudioProjects\\Untiy3d\\fingermove\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

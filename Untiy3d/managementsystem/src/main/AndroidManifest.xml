@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mic.asus.managementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustPan|stateVisible">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".employee.EmployeeLogin" />
+        <activity android:name=".employee.EmployeeRegister" />
+        <activity android:name=".manager.Login.ManagerLogin" />
+        <activity android:name=".manager.Login.ManagerRegister" />
+        <activity android:name=".employee.EmployeeMain" />
+        <activity android:name=".manager.Login.ManagerMain" />
+        <activity android:name=".manager.employeeinf.Employeeinf" />
+        <activity android:name=".manager.employeeinf.empinf_update" />
+        <activity android:name=".manager.employeeinf.Empinfdetail" />
+        <activity android:name=".manager.foodmenu.foodinf" />
+        <activity android:name=".manager.foodmenu.Addfood" />
+        <activity android:name=".manager.deskinf.Deskinf" />
+        <activity android:name=".manager.transactioninf.Transactioninf" />
+        <activity android:name=".manager.deskinf.Deskinf_add" />
+        <activity android:name=".manager.deskinf.Deskinf_update" />
+        <activity android:name=".manager.foodmenu.Foodinf_update" />
+        <activity android:name=".manager.foodmenu.Foodinfdetail" />
+        <activity
+            android:name=".employee.empfoodmenu.Empfood"
+            android:launchMode="standard"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".manager.transactioninf.Transdetail" />
+        <activity android:name=".employee.CookerMain"></activity>
+    </application>
+
+</manifest>

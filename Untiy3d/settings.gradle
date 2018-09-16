@@ -1,0 +1,3 @@
+include ':app', ':myapplication', ':maze', ':service', ':managementsystem', ':myfragment'
+include ':app', 'why'
+include ':app', ':fingermove'
